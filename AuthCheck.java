@@ -21,6 +21,7 @@ public @interface AuthCheck {
      * @return
      */
     String mustRole() default "";
+    String mustRole1() default "叶绍冰牛逼";
 
 }
 
